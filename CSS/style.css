@@ -15,7 +15,7 @@ h2, h4 {
     font-style: normal;
     font-weight: 900;
 } 
-h3, a {
+h3, a, button {
     font-family: 'montserrat', sans-serif;
     font-size: 20pt;
     font-style: normal;
@@ -38,6 +38,12 @@ img {
 
 /*!!!!!!!! HW 17 START !!!!!!!!*/
 
+div {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -48,22 +54,28 @@ img {
     padding: 1%;
 }
 #logonav {
-    height: 75px;
+    height: 90px;
+    background-color: transparent;
+    width: 200px;
 }
 nav {
-    width: 89%;
+    width: 100%;
     padding: 1%;
     background-color: #D08F70;
-    margin-bottom: 25px;
 }
 header ul {
     float: right;
     color: white;
 }
+li {
+    margin-left: 40px;
+    margin-right:60px;
+    margin-top: 25px;
+}
 .heroimg {
     width: auto;
     height: 600px;
-    padding: 25px;
+    padding: 10px;
 }
 #mainphoto {
     height: 300px;
@@ -71,16 +83,18 @@ header ul {
 }
 .content {
     text-align: center;
-    background-color: rgb(255, 201, 101);
+    background-color: #D08F70;
     width: auto;
     margin: 0 auto;
     padding: 1%;
 }
 button {
     color: white;
-    background-color: black;
+    background-color: #c36f4e;
     height: 40px;
     border-radius: 5px;
+    margin-top: 1%;
+    width: 300px;
 }
 footer {
     margin-top: 25px;
