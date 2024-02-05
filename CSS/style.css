@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*!!!!!!!! FONTS//ASSETS !!!!!!!!*/
+h1 {
+    font-family: 'roca', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+h2, h4 {
+    font-family: 'roca', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+} 
+h3, a {
+    font-family: 'montserrat', sans-serif;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: 400;
+}  
+p {
+    font-family: 'montserrat', sans-serif;
+    font-size: 16pt;
+    font-style: normal;
+    font-weight: 400;
+}
+img {
+    width: inherit;
+    height: inherit;
+}
+#minari {
+    height: 259px;
+    width: 385px;
+}
+
+/*!!!!!!!! HW 17 START !!!!!!!!*/
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    text-align: left;
+    width: 2%;
+    padding: 1%;
+}
+#logonav {
+    height: 75px;
+}
+nav {
+    width: 89%;
+    padding: 1%;
+    background-color: #D08F70;
+    margin-bottom: 25px;
+}
+header ul {
+    float: right;
+    color: white;
+}
+.heroimg {
+    width: auto;
+    height: 600px;
+    padding: 25px;
+}
+#mainphoto {
+    height: 300px;
+    margin-bottom: 10px;
+}
+.content {
+    text-align: center;
+    background-color: rgb(255, 201, 101);
+    width: auto;
+    margin: 0 auto;
+    padding: 1%;
+}
+button {
+    color: white;
+    background-color: black;
+    height: 40px;
+    border-radius: 5px;
+}
+footer {
+    margin-top: 25px;
+    background-color: #373738;
+    padding: 2px;
+    color: white;
+}
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 1%;
+    color: white;
+
+/*!!!!!!!! HW 18 START !!!!!!!!*/
+
+}
+.flexContainer{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flexContainer div {
+    text-align: center;
+    width: 33%;
+    margin: 1%;
+}
+.flexContainer p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto 1000px;
+    grid-gap: 2%;
+    padding: 2%;
+    grid-template-areas: 
+        "project1 img1"
+        "project2 img2"
+        "project3 img3";
+}
+.project1 {
+    grid-area: project1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bsbImg {
+    grid-area: img1;
+    width: 90%;
+    margin-left: 20%;
+}
+.project2 {
+    grid-area: project2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.appImg {
+    grid-area: img2;
+    width: 90%;
+    margin-left: 20%;
+}
+.project3 {
+    grid-area: project3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.govImg {
+    grid-area: img3;
+    width: 90%;
+    margin-left: 20%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        flex-direction: row;
+    }
+    .flexContainer div {
+        width: 100%;
+    }
+    .workGrid {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+        grid-template-areas: 
+            "project1"
+            "img1"
+            "project2" 
+            "img2"
+            "project3" 
+            "img3";
+    }
+}
+
+
