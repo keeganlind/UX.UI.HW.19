@@ -71,10 +71,12 @@ li {
 a:link {
     color: black;
     background-color: #D08F70;
+    text-decoration: none;
 }
 a:visited {
     color: black;
     background-color: #D08F70;
+    text-decoration: none;
 }
 .heroimg {
     height: 600px;
