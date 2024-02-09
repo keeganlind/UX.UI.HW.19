@@ -116,26 +116,65 @@ a:visited {
     text-decoration: none;
 }
 .heroimg {
-    height: 600px;
+    height: 400px;
     padding: 10px;
 }
 #mainphoto {
-    height: 300px;
-    margin-bottom: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    height: 200px;
+    margin-right: 5%;
 }
 .content {
-    text-align: center;
-    background-color: #D08F70;
+    text-align: left;
+    background: #FBE7C8;
     width: auto;
     padding: 1%;
+}
+.heroTxt div {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+.heroTxt h2 {
+    display: flex;
+    width: 252.743px;
+    height: 56.46px;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.heroTxt h1 {
+    display: flex;
+    width: 806.372px;
+    height: 56.46px;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.heroTxt h3 {
+    display: flex;
+    width: 300.885px;
+    height: 56.46px;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-left: 300px;
+}
+.heroTxt p {
+    display: flex;
+    width: 598.159px;
+    height: 132.425px;
+    flex-shrink: 0;
+    flex-direction: row;
+    margin-left: 150px;
 }
 button {
     color: white;
     background-color: #c36f4e;
     height: 40px;
     border-radius: 5px;
-    margin-top: 1%;
     width: 300px;
+    margin-left: 400px;
 }
 footer {
     margin-top: 25px;
@@ -149,10 +188,24 @@ footer ul {
     text-align: left;
     padding: 1%;
     color: white;
-
+}
+.about {
+    width: auto;
+    height: 600px;
+    padding: 25px;
+}
+#aboutImg {
+    height: 300px;
+    margin-bottom: 10px;
+}
+.aboutContent {
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    padding: 1%;
+}
 /*!!!!!!!! HW 18 START !!!!!!!!*/
 
-}
 .flexContainer{
     display: flex;
     margin: auto;
